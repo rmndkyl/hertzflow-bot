@@ -36,7 +36,7 @@ Automated trading bot for HertzFlow - decentralized perpetual exchange on BNB Ch
 ## How to Purchase
 
 1. Contact @rmndkyl on Telegram
-2. Payment: DANA/GoPay/Shopeepay 089637622655 | BCA 8415639160 | Seabank 901859344390 | USDT
+2. Payment: DANA/GoPay/ShopeePay | BCA/Seabank | Crypto (USDT/SOL) — contact for wallet address
 3. Send proof of payment
 4. Receive bot files + setup guide
 
