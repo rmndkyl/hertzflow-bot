@@ -1,5 +1,9 @@
 # HertzFlow Testnet Bot
 
+🌐 **Website:** https://testnet.hertzflow.xyz
+🔗 **Referral:** https://testnet.hertzflow.xyz/referral?ref=OGLYID
+
+
 Automated trading bot for HertzFlow - decentralized perpetual exchange on BNB Chain with up to 1000x leverage. Backed by YZi Labs (Binance Labs).
 
 ## Info
