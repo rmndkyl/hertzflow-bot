@@ -1,6 +1,25 @@
-# HertzFlow Testnet Bot
+# HertzFlow Bot
+
+**Versi:** 1.0.0 · **Harga:** Rp 120.000 (~$8) · **Kontak pembelian:** [@rmndkyl](https://t.me/rmndkyl)
 
 Automated trading & liquidity bot for HertzFlow testnet (BNB Chain). Backed by YZi Labs (Binance Labs).
+
+## Kebutuhan
+
+| Item | Detail |
+|---|---|
+| Runtime | Node.js 18+ |
+| Wallet | EVM / sesuai chain proyek (kamu sendiri) |
+| Proxy | tidak perlu |
+| Captcha | tidak perlu |
+| Akses | akun proyek yang kamu kelola sendiri |
+
+## Pembayaran
+
+E-Wallet: DANA / GoPay / ShopeePay · Bank: BCA / Seabank · Crypto: contact for wallet address.
+Pembeli menghubungi [@rmndkyl](https://t.me/rmndkyl), kirim bukti transfer, lalu terima license key.
+
+---
 
 ## Features
 
@@ -25,7 +44,6 @@ Create `accounts.json`:
 [
   {
     "label": "wallet1",
-    "privateKey": "0xYOUR_PRIVATE_KEY"
   }
 ]
 ```
@@ -58,7 +76,6 @@ node index.js --history
 ## Referral
 
 Default referral code: `OGLYID`
-Referral link: https://testnet.hertzflow.xyz/referral?ref=OGLYID
 
 ## How It Works
 
@@ -96,15 +113,6 @@ Referral link: https://testnet.hertzflow.xyz/referral?ref=OGLYID
 
 | Contract | Address |
 |----------|---------|
-| ExchangeRouter | `0xc82ceF15311ff3B4a8ab576f43677662378D9F52` |
-| SyntheticsRouter | `0xEb460f6DDb55822015b7792854aDd4423f232686` |
-| OrderVault | `0x4cDe676F61Dc2F85c83b9404833004B822721c0f` |
-| DepositVault | `0x07860Cc65DeB99Cb12d4582a7ae8123030C2d5C1` |
-| WithdrawalVault | `0x78c9c8BD4ad8EbC8e65c78B77AD3F19f0b1326b4` |
-| HlvRouter | `0x9A8958B6b3B945C71157E39DE969c95231F83181` |
-| HlvDepositVault | `0x02cf5def6007e0e247a39571881eda95e0108b29` |
-| ReferralStorage | `0xB7812a1399FA6C9D40966F07F4B8f5C88A319F8D` |
-| Test USDT | `0x6335881872FEcab922d1d83c6Bae6E27C5a9209c` |
 
 ## API Endpoints
 
@@ -121,3 +129,29 @@ Referral link: https://testnet.hertzflow.xyz/referral?ref=OGLYID
 ## License
 
 MIT
+
+## 💰 Harga
+
+| Lisensi | Harga | Fitur |
+|---------|-------|-------|
+| **Single** | Rp 120.000 / ~$8 | 1 device, lifetime |
+| **Bundle (3 bot)** | Rp 120.000 / ~$16 | Pilih 3 bot, hemat 20% |
+| **Pro (semua bot)** | Rp 120.000 / ~$70 | Semua bot + update, hemat 30% |
+
+**Cara beli:** Chat [@OG_LYID_bot](https://t.me/OG_LYID_bot) di Telegram → /buy
+
+**Bayar pakai:**
+- 🇮🇩 DANA / GoPay / ShopeePay / BCA / Seabank
+- 🌐 Crypto (USDT/SOL/ETH)
+
+## 🔧 Troubleshooting
+
+| Masalah | Solusi |
+|---------|--------|
+| `Cannot find module` | Jalankan `npm install` di folder bot |
+| `insufficient balance` | Pastikan wallet punya cukup token untuk gas |
+| `429 Too Many Requests` | Tunggu 30-60 detik, bot auto-retry |
+| Bot diam/tidak jalan | Cek `config.json` — pastikan API key valid |
+| License invalid | Chat [@OG_LYID_bot](https://t.me/OG_LYID_bot) → /verify |
+
+**Butuh bantuan?** Join [Discord](https://discord.gg/ZK2NVkfSNn) atau chat [@layerairdrop](https://t.me/layerairdrop)
